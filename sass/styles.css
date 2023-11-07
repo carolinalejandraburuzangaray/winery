@@ -33,7 +33,7 @@ img {
  /* Estilo para las imágenes de productos */
  .card-img-fixed {
   width: 55%; 
-  height: auto; /* Permite que la altura se ajuste automáticamente */
+  height: auto; 
 }
 .gallery a img {
   display: block;

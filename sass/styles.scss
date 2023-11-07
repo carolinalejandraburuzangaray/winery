@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  .logo {
+    width: 25%;
+    height: 25%;
+    background-color: white;
+        img{
+            text-align: center;
+        }
+    }
+    img {
+        transform: scale(1);
+        transition: transform 0.5s;
+        cursor: pointer;
+        position: relative;
+        padding: 10px;
+        max-width: 100%;
+      }
+
+      .card-img-fixed {
+        width: 55%; 
+        height: auto; 
+      }
+      .gallery a img {
+        display: block;
+        height: auto;
+        width: 75%;
+        text-align: center; 
+      }
+      .card-img-top {
+        transition: all .8s;
+        border-radius: 10px;
+      }
+      .card-img-top:hover {
+        filter: grayscale(0);
+      }
+      .card {
+        border: none;
+      }
+      
+      h2 {
+        text-align: center; 
+        padding: 45px;
+      }
+      .color-change-5x {
+      
+        animation: color-change-5x 8s linear infinite alternate both;
+      }
+      
+      .navbar {
+        background-color: #750d19dc; 
+      }
+      
+      .navbar-default .navbar-nav > li > a {
+        color: rgb(230, 235, 230); 
+      }
+      .navbar-default .navbar-nav > li > a:hover {
+        background-color: #750d19dc; 
+      }
+      
+      .container {
+        text-align: center; 
+        padding: 45px;
+      }
+      
+      .container h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      
+      section {
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      
+      p {
+        margin-bottom: 20px;
+        text-align: center; 
+        padding: 45px;
+      }
+      
+      /*footer*/
+      .redes{
+        margin:16px;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        img{
+            height: 15px;
+            width: 15px;
+           
+        }
+    }
+        
+    .sectionredes h3{
+            text-align: center;
+            padding:16px;
+        }

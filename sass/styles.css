@@ -33,7 +33,7 @@ img {
  /* Estilo para las imágenes de productos */
  .card-img-fixed {
   width: 55%; 
-  height: auto; 
+  height: auto; /* Permite que la altura se ajuste automáticamente */
 }
 .gallery a img {
   display: block;
@@ -132,7 +132,7 @@ p {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.272); 
 }
 .navbar {
-  background-color: #750d19dc; 
+  background-color: #750d19dc;
   margin-bottom: 20px;
 }
 
